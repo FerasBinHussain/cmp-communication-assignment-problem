@@ -1,17 +1,22 @@
 <template>
-   <form @submit.prevent="submitData">
+<div>
+<form @submit.prevent="submitData">
     <div>
-      <label>Name</label>
+      <h1> Add User's Data </h1>
+      <label>Name: </label>
       <input type="text" v-model="enteredName" />
     </div>
     <div>
-      <label>Age</label>
+      <label>Age: </label>
       <input type="text" v-model="enteredAge" />
     </div>
     <div>
       <button>Add User</button>
     </div>
   </form>
+
+</div>
+   
 </template>
 
 <script>

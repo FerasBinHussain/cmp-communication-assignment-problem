@@ -1,8 +1,9 @@
 <template>
-    <li>
-        <h2> {{ name }} </h2>
-        <h3> {{ age }} </h3>
-    </li>
+    <div>
+        <h2> Name: {{ name }} </h2>
+        <h3> Age: {{ age }} </h3>
+    </div>
+       
 </template>
 
 <script>
